@@ -1,0 +1,196 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wisata Alam Jember — Pantai, Air Terjun, dan Hutan</title>
+  <meta name="description" content="Panduan singkat wisata alam di Kabupaten Jember, Jawa Timur: pantai, air terjun, pegunungan, dan kawasan konservasi.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a href="#beranda" class="brand">Jember<span>Alam</span></a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#destinasi">Destinasi</a></li>
+        <li><a href="#tips">Tips</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="beranda">
+      <div class="wrap hero-inner">
+        <h1>Jelajahi alam Jember dari pantai sampai pegunungan</h1>
+        <p>Kabupaten Jember menyimpan pantai selatan yang tenang, air terjun di lereng pegunungan, dan hutan konservasi yang masih lestari. Temukan tempat yang cocok untuk liburan berikutnya.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#destinasi">Lihat destinasi</a>
+          <a class="btn btn-ghost" href="#tips">Baca tips berkunjung</a>
+        </div>
+      </div>
+      <div class="hero-sun" aria-hidden="true"></div>
+      <svg class="hero-land" viewBox="0 0 1440 260" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 170 L120 110 L220 150 L360 70 L480 140 L600 100 L720 160 L860 90 L980 150 L1120 80 L1260 140 L1440 100 L1440 260 L0 260Z" fill="#2d5a43" opacity=".7"/>
+        <path d="M0 210 L150 160 L300 200 L460 140 L620 205 L780 160 L940 210 L1100 150 L1260 205 L1440 170 L1440 260 L0 260Z" fill="#1c3a2c"/>
+        <path d="M0 240 Q180 215 360 240 T720 240 T1080 240 T1440 240 L1440 260 L0 260Z" fill="#f1f5f2"/>
+      </svg>
+    </section>
+
+    <!-- TENTANG -->
+    <section class="section" id="tentang">
+      <div class="wrap about">
+        <div>
+          <div class="section-head">
+            <h2>Mengapa wisata alam Jember layak dikunjungi</h2>
+          </div>
+          <p>Jember berada di bagian timur Jawa Timur. Wilayahnya memanjang dari dataran tinggi di utara, yang berada di kaki Pegunungan Argopuro dan Raung, hingga garis pantai di selatan yang berhadapan dengan Samudra Hindia.</p>
+          <p>Variasi bentang alam ini membuat satu kabupaten menawarkan banyak jenis wisata: bermain di pantai, trekking menuju air terjun, menikmati udara sejuk di perbukitan, dan mengamati satwa di taman nasional.</p>
+          <p>Situs ini merangkum beberapa destinasi alam yang populer sebagai referensi awal perjalanan Anda.</p>
+        </div>
+        <dl class="facts">
+          <div><dt>Lokasi</dt><dd>Jawa Timur, Indonesia</dd></div>
+          <div><dt>Bentang alam</dt><dd>Pantai, air terjun, hutan, perbukitan</dd></div>
+          <div><dt>Kawasan konservasi</dt><dd>Taman Nasional Meru Betiri</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- DESTINASI -->
+    <section class="section destinasi" id="destinasi">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Destinasi alam pilihan</h2>
+          <p>Pilih kategori untuk menyaring daftar tempat.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter kategori">
+          <button class="filter-btn active" data-filter="semua">Semua</button>
+          <button class="filter-btn" data-filter="pantai">Pantai</button>
+          <button class="filter-btn" data-filter="air">Air terjun</button>
+          <button class="filter-btn" data-filter="hutan">Hutan &amp; pegunungan</button>
+        </div>
+
+        <div class="grid">
+          <article class="card" data-cat="pantai">
+            <div class="card-top pantai"><img src="images/papuma.jpg" alt="Pantai Papuma" loading="lazy" onerror="this.remove()"><span class="badge">Pantai</span><span class="kec">Kec. Ambulu</span></div>
+            <div class="card-body">
+              <h3>Pantai Papuma</h3>
+              <p>Pantai berpasir putih dengan tebing karang dan pulau-pulau kecil di lepas pantai. Salah satu ikon wisata alam Jember.</p>
+              <ul><li>Menikmati matahari terbenam</li><li>Berfoto di formasi karang</li><li>Piknik di area hutan pantai</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-cat="pantai">
+            <div class="card-top pantai"><img src="images/watu-ulo.jpg" alt="Pantai Watu Ulo" loading="lazy" onerror="this.remove()"><span class="badge">Pantai</span><span class="kec">Kec. Ambulu</span></div>
+            <div class="card-body">
+              <h3>Pantai Watu Ulo</h3>
+              <p>Dikenal karena batu karang memanjang yang menyerupai ular dan terkait dengan legenda setempat.</p>
+              <ul><li>Wisata pantai keluarga</li><li>Mengenal legenda lokal</li><li>Berjalan di tepi karang</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-cat="pantai">
+            <div class="card-top pantai"><img src="images/teluk-love.jpg" alt="Teluk Love" loading="lazy" onerror="this.remove()"><span class="badge">Pantai</span><span class="kec">Kawasan Payangan</span></div>
+            <div class="card-body">
+              <h3>Teluk Love</h3>
+              <p>Teluk dengan bentuk menyerupai hati jika dilihat dari ketinggian, berada di kawasan Pantai Payangan.</p>
+              <ul><li>Berfoto dari sisi perbukitan</li><li>Menikmati pemandangan teluk</li><li>Bersantai di tepi pantai</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-cat="air">
+            <div class="card-top air"><img src="images/tancak-kembang.jpg" alt="Air Terjun Tancak Kembang" loading="lazy" onerror="this.remove()"><span class="badge">Air terjun</span><span class="kec">Kec. Panti</span></div>
+            <div class="card-body">
+              <h3>Air Terjun Tancak Kembang</h3>
+              <p>Air terjun di kawasan lereng pegunungan yang dikelilingi pepohonan, cocok bagi pencinta alam yang suka berjalan kaki.</p>
+              <ul><li>Trekking ringan</li><li>Fotografi alam</li><li>Menikmati udara sejuk</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-cat="air">
+            <div class="card-top air"><img src="images/rayap.jpg" alt="Air Terjun Rayap" loading="lazy" onerror="this.remove()"><span class="badge">Air terjun</span><span class="kec">Kec. Arjasa</span></div>
+            <div class="card-body">
+              <h3>Air Terjun Rayap</h3>
+              <p>Air terjun setinggi sekitar 10 meter di area perkebunan kopi, Dusun Rayap, Desa Kemuning Lor. Juga dikenal sebagai Air Terjun Anugerah dan letaknya tak jauh dari Wisata Rembangan.</p>
+              <ul><li>Berjalan kaki melewati kebun kopi</li><li>Berenang di sekitar air terjun</li><li>Berkunjung saat musim kemarau</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-cat="hutan">
+            <div class="card-top hutan"><img src="images/rembangan.jpg" alt="Puncak Rembangan" loading="lazy" onerror="this.remove()"><span class="badge">Pegunungan</span><span class="kec">Kec. Arjasa</span></div>
+            <div class="card-body">
+              <h3>Puncak Rembangan</h3>
+              <p>Kawasan perbukitan berhawa sejuk dengan hutan pinus dan pemandangan dataran Jember dari ketinggian.</p>
+              <ul><li>Camping dan jalan santai</li><li>Menikmati pemandangan kota</li><li>Udara pegunungan yang segar</li></ul>
+            </div>
+          </article>
+
+          <article class="card" data-cat="hutan">
+            <div class="card-top hutan"><img src="images/meru-betiri.jpg" alt="Taman Nasional Meru Betiri" loading="lazy" onerror="this.remove()"><span class="badge">Konservasi</span><span class="kec">Kec. Tempurejo</span></div>
+            <div class="card-body">
+              <h3>Taman Nasional Meru Betiri (Bandealit)</h3>
+              <p>Kawasan konservasi di Kecamatan Tempurejo, Jember. Area Bandealit menawarkan hutan, sungai, dan peluang mengamati satwa liar.</p>
+              <ul><li>Pengamatan flora dan fauna</li><li>Wisata edukasi konservasi</li><li>Jelajah hutan bersama pemandu</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIPS -->
+    <section class="section" id="tips">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Tips sebelum berangkat</h2>
+          <p>Beberapa hal sederhana agar perjalanan lebih aman dan nyaman.</p>
+        </div>
+        <div class="tips-grid">
+          <div class="tip"><h3>Cek cuaca</h3><p>Hindari air terjun dan sungai saat hujan deras karena debit air bisa naik tiba-tiba.</p></div>
+          <div class="tip"><h3>Waspadai ombak</h3><p>Pantai selatan memiliki ombak besar. Patuhi rambu dan arahan petugas sebelum berenang.</p></div>
+          <div class="tip"><h3>Bawa perlengkapan</h3><p>Siapkan air minum, alas kaki yang nyaman, tabir surya, dan jas hujan.</p></div>
+          <div class="tip"><h3>Jaga kebersihan</h3><p>Bawa kembali sampah Anda dan jangan merusak tumbuhan maupun satwa di kawasan wisata.</p></div>
+        </div>
+        <p class="notice"><strong>Catatan:</strong> jam buka, harga tiket, dan kondisi akses dapat berubah. Pastikan informasi terbaru melalui pengelola wisata atau dinas pariwisata setempat sebelum berangkat.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><strong>JemberAlam</strong><br>Panduan wisata alam Kabupaten Jember</div>
+      <div>Disusun oleh: Achmad Solikhin &middot; E41260957 &middot; Workshop Desain Aplikasi<br>&copy; 2026</div>
+    </div>
+  </footer>
+
+  <script>
+    // Menu mobile
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    links.addEventListener('click', () => {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+
+    // Filter destinasi
+    const buttons = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.card');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const f = btn.dataset.filter;
+        cards.forEach(c => { c.hidden = !(f === 'semua' || c.dataset.cat === f); });
+      });
+    });
+  </script>
+</body>
+</html>
